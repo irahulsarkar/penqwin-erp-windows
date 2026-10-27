@@ -6,14 +6,9 @@ Pharmacy management software for India. Billing at the counter, stock and batche
 
 ## At a glance
 
-| | |
-|---|---|
-| **Sell** | Point of sale with batch and expiry control, quotations, delivery challans, invoices, returns, receivables |
-| **Buy** | Purchase orders, goods receipt, purchase bills, supplier payments and returns |
-| **Stock** | Batches, expiry control, low stock, transfers, physical verification, barcode labels |
-| **Accounts and tax** | Day book, bank reconciliation, vouchers, financial reports, GST filing, GSTR-2B reconciliation, e-invoice |
-| **Compliance** | Schedule H1 and X registers, doctors, drug inspector visits |
-| **Customers** | Groups, membership, loyalty, refill reminders, credit accounts |
+<p align="center">
+  <img src="docs/assets/at-a-glance.svg" width="100%" alt="Penqwin ERP at a glance. Sell: point of sale with batch and expiry, quotations, challans, invoices, returns and receivables. Buy: purchase orders, goods receipt, purchase bills, supplier payments and returns. Stock: batches and expiry control, low stock, transfers, verification and barcode labels. Accounts and tax: day book, bank reconciliation, vouchers, financial reports, GST filing, GSTR-2B and e-invoice. Compliance: Schedule H1 and X registers, doctors and drug inspector visits. Customers: groups, membership and loyalty, refill reminders and credit accounts.">
+</p>
 
 The full list is in [docs/FEATURES.md](docs/FEATURES.md).
 
