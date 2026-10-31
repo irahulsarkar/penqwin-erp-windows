@@ -1,1 +1,4 @@
-898e05be4b27fea93b7ab1f7fea88f378179f606ad9e0956881ad3f73a00b4b0 Penqwin-ERP-Setup-6.0.0.exe
+8cf5b06ee52c83519fffef2b6c7dbbf978db39069544256918baa1604874ca9b Penqwin-ERP-Windows-6.0.3.exe
+d539bd8cbfa9d7bfb18774c3f38c95f38bacb3dcbfacecdce3a37027e5c7c7cb Penqwin-ERP-Demo-Windows-6.0.3.exe
+9bc496464cf7e50f8ae1b218c914fd3b2cdbbda81e423a5732c7508e8b2bd93e Penqwin-ERP-Linux-6.0.3.deb
+f99e59429f6193ff2ca17cebe06b4db78d0ee0ac75670d882531cbc01d859aa3 Penqwin-ERP-Linux-6.0.3.tar.gz
