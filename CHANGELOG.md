@@ -2,11 +2,30 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.0.5
+
+This includes everything listed under 6.0.3 below (that version was not released on its own).
+
+### Added
+- Miscellaneous billing: a master of small charges (carry bag, delivery), added in the POS calculation line with Alt+M, booked to their own income ledger, shown on the bill, every printout and the PDF, reversed when a bill is cancelled. No tax is charged on them.
+- Ctrl+A opens the settle window from anywhere on the counter and settles it the second time; Enter on an empty item line goes to the calculation line.
+- A wide settle window: the payment mode on one key, a Cash received box with the change to return, Enter to settle.
+- A tabbed customer card on the counter (dues, credit, points, history, profile); the selected item and the substitute finder in the left corner of the calculation line; a closable shortcuts panel; the arrow keys fill the item name into the search box.
+- After a sale: save a copy of the bill as a PDF, a CSV or an Excel sheet.
+- Text that is cut off slides into view on hover.
+- A much stronger import engine (any file, printed-bill CSVs, packs against units, medicines created on the spot, import history on request) and an Import / Export menu.
+- Supplier payments from the Suppliers page and the supplier profile, with the invoice numbers settled, a printable payment summary and an acknowledgement stamp.
+
+### Changed
+- The Settle Bill button is shown only on a phone-width window; on a computer the bill is settled from the keyboard.
+- Notifications and menus sit above the page content, and the menu bar fits smaller windows.
+
 ## 6.0.3
 
 ### Added
 - Penqwin ERP also runs on Linux.
-- A window of its own on Windows and Linux: a title bar with a search box (pages, products with their stock and rack, invoices), back and forward buttons, an online / offline indicator and a display menu for text size, contrast and motion.
+- A free trial for a copy with no licence: 24 hours, 5 sales and 5 purchase entries, AI locked. It cannot be restarted by installing again, and an activation afterwards continues where the pharmacy left off. The activation screen opens on "Your free trial has ended" with the support phone, WhatsApp and e-mail.
+- Pincode comes first in every address (pharmacy, customer, supplier); typing it fills the state and the city.
 - Transactions: every movement of money (cash, bank, UPI, card) on one screen, printable.
 - Interest on dues, by a shop rate or a rate of its own per customer, shown on statements, the ageing list and printouts (never posted to the books).
 - Printable outstanding for each customer and supplier, and a Print button on every screen with a table.
@@ -15,6 +34,13 @@ All notable changes to Penqwin ERP for Windows are listed here, newest first.
 - On a purchase entry: pick a medicine from the medicine directory to add it as a new product; continue a supplier bill that is already entered; add items to a posted bill.
 - Full keyboard use: Tab to rows and headings, arrows between rows and fields, F6 between menu and screen, letter jumps in choices, lists that scroll with the arrows.
 - Racks and shelves can be added from inside the product form.
+
+### Security
+- A web page can no longer read or change anything through the browser ("DNS rebinding"): the server answers only to addresses of this computer.
+- Updates are installed only when signed by us; the update address is now penqw.in.
+- The online UPI gateway secrets are sealed in the database, so a backup never carries them.
+- Go 1.26.10 and newer libraries: 14 known vulnerabilities fixed.
+- Online activation is switched off for now; activation is by request file and licence file.
 
 ### Changed
 - A redesigned product form; windows no longer close when clicking outside them.

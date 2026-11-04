@@ -4,35 +4,30 @@
 
 | | Windows | Linux |
 |---|---|---|
-| System | Windows 10 or Windows 11, 64-bit | Ubuntu 24.04 or newer, Debian 13, Fedora 40 or newer, or another distribution with GTK 4 and WebKitGTK 6; 64-bit Intel/AMD |
+| System | Windows 10 or Windows 11, 64-bit | Ubuntu 24.04 or newer, Debian 13, Fedora 40 or newer, or another distribution with GTK 3 and WebKitGTK 4.1 and glibc 2.39 or newer; 64-bit Intel/AMD |
 | Rights | A standard user is enough. The installer does not need administrator rights | Installing the package needs administrator rights (`sudo`); running it does not |
-| Display | The Microsoft Edge WebView2 Runtime, which is included with Windows 11 and with up-to-date Windows 10 | GTK 4 and WebKitGTK 6, which the package installs for you |
+| Display | The Microsoft Edge WebView2 Runtime, which is included with Windows 11 and with up-to-date Windows 10 | GTK 3 and WebKitGTK 4.1, which the package installs for you |
 | Printing | Any Windows printer; receipt printers and cash drawers through the Windows spooler | Any CUPS printer; receipt printers and cash drawers through CUPS |
 | Network | Needed to activate the licence and, optionally, for backup to Google Drive. Daily work does not depend on it | The same |
 
-macOS is not available in this release.
+Linux and macOS are not available in this release.
 
 ## Install on Windows
 
-1. Download `Penqwin-ERP-Windows-6.0.3.exe` from the [latest release](../../../releases/latest).
+1. Download `Penqwin-ERP-Windows-6.0.5.exe` from the [latest release](../../../releases/latest).
 2. Run it and follow the steps. The app is installed for the signed-in Windows user.
 3. Open Penqwin ERP. On the first start, activate it with your licence and complete the first-run setup.
 
-## Install on Linux
+## Linux
 
-1. Download `Penqwin-ERP-Linux-6.0.3.deb` from the [latest release](../../../releases/latest).
-2. Install it: `sudo apt install ./Penqwin-ERP-Linux-6.0.3.deb`. This also installs GTK 4 and WebKitGTK if they are missing.
-3. Open Penqwin ERP from the applications menu. On the first start, activate it with your licence and complete the first-run setup.
-
-Without `apt`: unpack `Penqwin-ERP-Linux-6.0.3.tar.gz` anywhere and run `./penqwin-erp/penqwin-erp`.
+The Linux package is not part of release 6.0.5. It will come in a later release.
 
 ## Verify the download
 
 Each release lists the SHA-256 of every file. To check your copy:
 
 ```
-certutil -hashfile Penqwin-ERP-Windows-6.0.3.exe SHA256     (Windows, in a command prompt)
-sha256sum Penqwin-ERP-Linux-6.0.3.deb                       (Linux)
+certutil -hashfile Penqwin-ERP-Windows-6.0.5.exe SHA256     (Windows, in a command prompt)
 ```
 
 The result must match the release notes exactly. If it does not, download the file again.
@@ -55,13 +50,13 @@ Keep your own backups:
 
 Copy a backup to another drive or computer regularly. A backup that exists only on the computer it protects does not protect against that computer failing.
 
-## The program's own window
+## The free trial and activation
 
-On Windows and Linux the program draws its own title bar. It has a search box (Ctrl+K), back and forward buttons, an online / offline indicator, and an "Aa" menu for text size, higher contrast and reduce motion. Settings, Desktop chooses whether closing the window keeps the program in the tray, and whether it starts when you sign in.
+A copy with no licence runs on a free trial: 24 hours from its first start, with 5 sales and 5 purchase entries, and the AI features locked. Everything you enter is kept when you activate, and you carry on exactly where you left off. Installing again does not give another trial. When it ends the program shows "Your free trial has ended" with how to reach us for an activation key; press Activate, download the activation request, send it to us, and import the licence file we send back.
 
 ## Licence
 
-A licence is per computer. Moving the software to another computer needs the licence to be moved; write to [hello@penqw.in](mailto:hello@penqw.in) for help. For prices and how to buy, see [penqw.in](https://penqw.in).
+A licence is per computer. Moving the software to another computer needs the licence to be moved; write to [hello@penqw.in](mailto:hello@penqw.in) or call +91 84312 93339 for help. For prices and how to buy, see [penqw.in](https://penqw.in).
 
 ## Uninstall
 
@@ -72,4 +67,4 @@ Your data folder is left in place, so a later reinstall finds it. Delete it only
 
 ## For IT administrators
 
-The Windows installer is an Inno Setup program and accepts its standard switches, for example `Penqwin-ERP-Windows-6.0.3.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART`.
+The Windows installer is an Inno Setup program and accepts its standard switches, for example `Penqwin-ERP-Windows-6.0.5.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART`.

@@ -1,22 +1,39 @@
-## Penqwin ERP 6.0.3
+## Penqwin ERP 6.0.5
 
-Pharmacy management software for India, now for Windows and Linux. An existing Windows installation is upgraded in place and keeps its data.
+Pharmacy management software for India, for Windows. An existing Windows installation is upgraded in place and keeps its data.
 
 | File | What it is | Size | SHA-256 |
 |---|---|---|---|
-| `Penqwin-ERP-Windows-6.0.3.exe` | Windows 10 and 11 (64-bit): the installer to use | 27.9 MB | `8CF5B06EE52C83519FFFEF2B6C7DBBF978DB39069544256918BAA1604874CA9B` |
-| `Penqwin-ERP-Demo-Windows-6.0.3.exe` | Windows: a trial copy with sample data, ready to try with no licence; it keeps its own data and does not touch a real installation | 33.7 MB | `D539BD8CBFA9D7BFB18774C3F38C95F38BACB3DCBFACECDCE3A37027E5C7C7CB` |
-| `Penqwin-ERP-Linux-6.0.3.deb` | Linux, 64-bit Intel/AMD: a package for Ubuntu 24.04 and newer, Debian 13 and the distributions of that age | 26.7 MB | `9BC496464CF7E50F8AE1B218C914FD3B2CDBBDA81E423A5732C7508E8B2BD93E` |
-| `Penqwin-ERP-Linux-6.0.3.tar.gz` | Linux, 64-bit Intel/AMD: the same program as a plain archive, for any distribution with GTK 4 and WebKitGTK 6 | 29.1 MB | `F99E59429F6193FF2CA17CEBE06B4DB78D0EE0AC75670D882531CBC01D859AA3` |
+| `Penqwin-ERP-Windows-6.0.5.exe` | Windows 10 and 11 (64-bit): the installer to use | 27.6 MB | `BF42A23913990D63BACF8672F9AA3E0D25638CC98CEDE5DF8C87FC0B12F75CE5` |
 
-Pick the file for your system. The Demo file is a trial copy with sample data. macOS is not in this release.
+Linux and macOS are not in this release.
 
-### What is new since 6.0.0
+### New in 6.0.5
 
-**A window of its own (Windows and Linux)**
-- The program draws its own title bar in its own colours, with a search box in the middle: type a page, a product or an invoice number and open it from there. A product shows how many can be sold and where the stock and the rack are.
-- Back and forward buttons, an online / offline indicator, and a display menu (text size, higher contrast, reduce motion).
-- Runs on Linux as well as Windows, with a tray icon, one copy at a time and desktop alerts.
+**Miscellaneous billing**
+- Carry bags, delivery and other small charges come from a new master (Masters, Miscellaneous billing), each with its usual price and the income ledger its money is booked to.
+- At the counter, add them in the calculation line (click Misc, or Alt+M): type, arrow to one, Enter. Change the quantity or the price for that bill. An item that is not in the master yet is created on the spot.
+- They are added after tax and discount, carry no tax, and show on the bill, every printout and the PDF. A cancelled bill reverses them.
+
+**A faster counter**
+- Ctrl+A opens the settle window from anywhere on the counter, and Ctrl+A again settles the bill. Enter on an empty item line moves to the calculation line.
+- A wider settle window with the mode on one key (C, U, D, K), a Cash received box that shows the change to return, and Enter to settle.
+- A tabbed customer card (dues, credit, points, history, profile), the selected item and the substitute finder at the left of the calculation line, a closable shortcuts panel, and the arrow keys show the item name in the search box.
+- After a sale you can save a copy of the bill as a PDF, a CSV or an Excel sheet.
+- Long text that is cut off slides into view when you hover it.
+
+**Import and suppliers**
+- A much stronger import engine: any file, printed-bill CSVs, medicines created on the spot with the usual product form, and an import history that opens on request.
+- Pay suppliers from the Suppliers page and the supplier profile, with the invoice numbers a payment settled, a payment summary to print and a supplier acknowledgement stamp.
+
+### Also new since 6.0.0 (6.0.3 was not released on its own)
+
+**Free trial, and activation**
+- A copy with no licence runs free for 24 hours, with 5 sales and 5 purchase entries; the AI features are locked. Installing again does not give another trial. When it ends the program says so and shows how to reach us for an activation key; after activating you carry on where you left off, with your pharmacy details kept.
+- Activation is by request file and licence file (online activation is switched off for now).
+
+**Safer**
+- A web page can no longer reach the program through the browser, updates are installed only if we signed them, the online UPI gateway secrets are stored sealed, and known weaknesses in the Go runtime and two libraries are fixed.
 
 **Money in and out**
 - A Transactions screen lists every movement of money (cash, bank, UPI and card) with who it was with, the bill, the bank account and the payment gateway. It can be printed.
@@ -46,7 +63,8 @@ Point of sale, quotations, delivery challans and invoices; purchase orders, good
 
 ### Installing
 
-**Windows:** run `Penqwin-ERP-Windows-6.0.3.exe`; no administrator rights are needed. Verify the download with `certutil -hashfile Penqwin-ERP-Windows-6.0.3.exe SHA256`.
-**Linux:** `sudo apt install ./Penqwin-ERP-Linux-6.0.3.deb`. Verify with `sha256sum Penqwin-ERP-Linux-6.0.3.deb`. More in `docs/INSTALL.md`.
+Run `Penqwin-ERP-Windows-6.0.5.exe`; no administrator rights are needed. Verify the download with `certutil -hashfile Penqwin-ERP-Windows-6.0.5.exe SHA256`. More in `docs/INSTALL.md`.
+
+The installer is not code-signed yet, so Windows SmartScreen may warn: choose More info, then Run anyway.
 
 A licence is per computer: see [penqw.in](https://penqw.in) or write to hello@penqw.in.
