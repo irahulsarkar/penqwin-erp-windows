@@ -14,7 +14,7 @@ The full list is in [docs/FEATURES.md](docs/FEATURES.md).
 
 ## Install
 
-1. Download `Penqwin-ERP-Windows-6.0.5.exe` from the [latest release](../../releases/latest).
+1. Download `Penqwin-ERP-Windows-6.0.8.exe` from the [latest release](../../releases/latest).
 2. Run it and follow the steps. No administrator rights are needed.
 3. Open the app and activate it with your licence.
 

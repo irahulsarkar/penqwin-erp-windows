@@ -1,12 +1,38 @@
-## Penqwin ERP 6.0.5
+## Penqwin ERP 6.0.8
 
 Pharmacy management software for India, for Windows. An existing Windows installation is upgraded in place and keeps its data.
 
 | File | What it is | Size | SHA-256 |
 |---|---|---|---|
-| `Penqwin-ERP-Windows-6.0.5.exe` | Windows 10 and 11 (64-bit): the installer to use | 27.6 MB | `BF42A23913990D63BACF8672F9AA3E0D25638CC98CEDE5DF8C87FC0B12F75CE5` |
+| `Penqwin-ERP-Windows-6.0.8.exe` | Windows 10 and 11 (64-bit): the installer to use | 27.8 MB | `B6B1014C77889E8C55D34A4C9DB9D1DD85868DC2802FD8BDD0DEC8A4EF9B0762` |
+| `Penqwin-ERP-Demo-Windows-6.0.8.exe` | Windows 10 and 11 (64-bit): a sample pharmacy to look around in, no activation needed | 33.6 MB | `7863AD28832C262768139038F0921146DDBD1B9B26BD1AB68FF7964685637DC3` |
 
-Linux and macOS are not in this release.
+Linux and macOS for this version are built separately and added here once ready. 32-bit Windows is not built yet.
+
+### New in 6.0.8 (6.0.6 and 6.0.7 were not released on their own)
+
+**The gateway, now the app's main screen**
+- Opening the program (and finishing setup) now lands on the gateway: every module and screen reachable by a letter or two, no sidebar or menu bar in the way.
+- A still-unactivated install is asked, before a single pharmacy-profile field, whether it already has a license key: activate first, or carry on free and activate later from Settings.
+- The gateway shows the pharmacy's figures for the day, what needs attention, screens opened recently, and now the running program's own version number.
+
+**Reports, tax and planning**
+- A catalogue of around 55 reports, GST statements, a TDS/TCS register, and targets, budgets and assets.
+- A medication sheet (dosage schedule) that can be handed to a patient or printed.
+
+**Printing and the keyboard**
+- One shared print engine behind every report and document: pages fill and continue properly, a report's own page setup (paper, margin, orientation) is remembered, and Alt+P prints whatever screen is open.
+- Every screen can be worked without a mouse; a save always refreshes what is on screen.
+- The first field of a screen is focused the moment it opens.
+
+**Online UPI and WhatsApp**
+- Collect UPI payments with a QR code on the bill through Razorpay or PhonePe, using your own gateway account.
+- Send WhatsApp Business messages from the desktop program.
+
+**Safer and clearer**
+- No internal codes, ids or system keys are ever shown on a screen or a printout.
+- A free, permanent plan (3 sales invoices, 3 purchase entries and 5 products a day) with no trial countdown; a one-time guided tour the first time the program is used.
+- A number of real, previously hard-to-notice bugs fixed: warning and error banners that were rendering as invisible text in several places, a page-setup menu that could open off the bottom of a dialog, and a chart line that could vanish over a stretch of zero-sales days.
 
 ### New in 6.0.5
 

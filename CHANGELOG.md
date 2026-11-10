@@ -2,6 +2,27 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.0.8
+
+This includes everything listed under 6.0.6 and 6.0.7 below (neither was released on its own).
+
+### Added
+- The gateway (every module and screen reachable by a letter or two) is now where the program opens and where setup finishes, instead of the dashboard.
+- Before a single pharmacy-profile field, a still-unactivated install is asked whether it already has a license key, with a choice to activate first or continue free.
+- A report catalogue of around 55 reports, GST statements, a TDS/TCS register, targets, budgets and assets.
+- A medication sheet that can be printed or handed to a patient.
+- One shared print engine across every report and document, with a remembered per-report page setup and Alt+P printing whatever screen is open.
+- A keyboard-first interface throughout, with the first field of every screen focused on open.
+- Online UPI collection on the bill through Razorpay or PhonePe, and WhatsApp Business messaging from the desktop program.
+- A permanent free plan with a one-time guided tour, and no internal codes or ids shown anywhere in the UI.
+- The running program's own version number, shown on the gateway.
+
+### Fixed
+- Several warning and error banners that rendered as unreadable, near-invisible text because of undefined color tokens.
+- A page-setup menu that could open off the bottom edge of a dialog.
+- A sales chart line that could vanish over a stretch of zero-sales days.
+- A pharmacy name field on the offline activation form that was pre-filling from a not-yet-real placeholder.
+
 ## 6.0.5
 
 This includes everything listed under 6.0.3 below (that version was not released on its own).

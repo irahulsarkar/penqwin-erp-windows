@@ -1,3 +1,5 @@
+b6b1014c77889e8c55d34a4c9db9d1dd85868dc2802fd8bdd0dec8a4ef9b0762 Penqwin-ERP-Windows-6.0.8.exe
+7863ad28832c262768139038f0921146ddbd1b9b26bd1ab68ff7964685637dc3 Penqwin-ERP-Demo-Windows-6.0.8.exe
 bf42a23913990d63bacf8672f9aa3e0d25638cc98cede5df8c87fc0b12f75ce5  Penqwin-ERP-Windows-6.0.5.exe
 8cf5b06ee52c83519fffef2b6c7dbbf978db39069544256918baa1604874ca9b Penqwin-ERP-Windows-6.0.3.exe
 d539bd8cbfa9d7bfb18774c3f38c95f38bacb3dcbfacecdce3a37027e5c7c7cb Penqwin-ERP-Demo-Windows-6.0.3.exe
