@@ -5,7 +5,7 @@
 
 When you write, include:
 
-- the version shown in the app (6.0.8 for this release) and your system and its version
+- the version shown in the app (6.0.9 for this release) and your system and its version
 - what you were doing and what you expected to happen
 - a screenshot of any message shown
 

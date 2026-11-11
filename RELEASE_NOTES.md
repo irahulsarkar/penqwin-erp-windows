@@ -1,13 +1,41 @@
-## Penqwin ERP 6.0.8
+## Penqwin ERP 6.0.9
 
-Pharmacy management software for India, for Windows. An existing Windows installation is upgraded in place and keeps its data.
+Pharmacy management software for India. Pick whichever file matches your computer below; an existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
 
-| File | What it is | Size | SHA-256 |
-|---|---|---|---|
-| `Penqwin-ERP-Windows-6.0.8.exe` | Windows 10 and 11 (64-bit): the installer to use | 27.8 MB | `B6B1014C77889E8C55D34A4C9DB9D1DD85868DC2802FD8BDD0DEC8A4EF9B0762` |
-| `Penqwin-ERP-Demo-Windows-6.0.8.exe` | Windows 10 and 11 (64-bit): a sample pharmacy to look around in, no activation needed | 33.6 MB | `7863AD28832C262768139038F0921146DDBD1B9B26BD1AB68FF7964685637DC3` |
+<p align="center">
+  <img src="docs/images/gateway.png" width="100%" alt="The Penqwin ERP gateway: every module reachable by a letter or two, today's sales and what needs attention on the right.">
+</p>
 
-Linux and macOS for this version are built separately and added here once ready. 32-bit Windows is not built yet.
+### Windows
+
+Works on Windows 10 and 11, 64-bit. No administrator rights needed; just run the installer.
+
+- `Penqwin-ERP-Windows-6.0.9.exe` — 28.0 MB
+
+32-bit Windows isn't built yet.
+
+### macOS
+
+One universal installer for both Apple Silicon (M-series) and Intel Macs, macOS 12 Monterey or newer.
+
+- `Penqwin-ERP-macOS-6.0.9.dmg` — 62.7 MB
+
+The app isn't notarized yet, so the first time you open it, right-click the app and choose Open instead of double-clicking, or Gatekeeper will refuse to launch it.
+
+### Linux
+
+Built in four flavours depending on how modern your distribution is. If you're not sure which one you need, the GTK4/amd64 `.deb` is the right pick for anything from the last couple of years (Ubuntu 24.04+, Debian 13, Fedora 40+); the `.tar.gz` next to it is the same build for distributions that don't use `.deb` packages.
+
+- **Newer distros (GTK4), Intel/AMD 64-bit:** `Penqwin-ERP-6.0.9-linux-amd64-gtk4.deb` (26.8 MB) or `.tar.gz` (29.2 MB)
+- **Newer distros (GTK4), ARM64 (Raspberry Pi 4/5 class and ARM servers):** `Penqwin-ERP-6.0.9-linux-arm64-gtk4.deb` (25.9 MB) or `.tar.gz` (28.2 MB)
+- **Older distros (GTK3 — Ubuntu 22.04, Debian 12), Intel/AMD 64-bit:** `Penqwin-ERP-6.0.9-linux-amd64-gtk3.deb` (26.8 MB) or `.tar.gz` (29.2 MB)
+- **Older distros (GTK3), ARM64:** `Penqwin-ERP-6.0.9-linux-arm64-gtk3.deb` (25.9 MB) or `.tar.gz` (28.2 MB)
+
+Every file's checksum is in `release-assets/SHA256SUMS.txt` if you want to verify your download.
+
+### New in 6.0.9
+
+- Fixed a real, previously hard-to-notice bug: the "Sales, last 30 days" chart on the dashboard could draw its curve, its markers and its "today" dot at the wrong position the first time the program opened each day, correcting itself only once the screen was refreshed. The chart now waits for a real measurement of its own box before drawing anything in it.
 
 ### New in 6.0.8 (6.0.6 and 6.0.7 were not released on their own)
 

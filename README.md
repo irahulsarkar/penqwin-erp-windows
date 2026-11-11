@@ -2,7 +2,11 @@
 
 Pharmacy management software for India. Billing at the counter, stock and batches, purchasing, GST, accounts and reports, in one desktop application. Your records are stored on your own computer.
 
-**[Download the latest release](../../releases/latest)** &nbsp;·&nbsp; Windows 10 and 11 (64-bit) &nbsp;·&nbsp; about 28 MB
+**[Download the latest release](../../releases/latest)** &nbsp;·&nbsp; Windows, macOS and Linux
+
+<p align="center">
+  <img src="docs/images/gateway.png" width="100%" alt="The Penqwin ERP gateway, where the app opens: every module reachable by a letter or two, with today's sales and what needs attention on the right.">
+</p>
 
 ## At a glance
 
@@ -14,8 +18,8 @@ The full list is in [docs/FEATURES.md](docs/FEATURES.md).
 
 ## Install
 
-1. Download `Penqwin-ERP-Windows-6.0.8.exe` from the [latest release](../../releases/latest).
-2. Run it and follow the steps. No administrator rights are needed.
+1. From the [latest release](../../releases/latest), grab the file for your computer: `Penqwin-ERP-Windows-6.0.9.exe` on Windows 10/11, `Penqwin-ERP-macOS-6.0.9.dmg` on macOS (Apple Silicon and Intel, one file for both), or on Linux whichever `.deb`/`.tar.gz` matches your distribution — see the release notes for which one that is.
+2. Run it and follow the steps. No administrator rights are needed on Windows.
 3. Open the app and activate it with your licence.
 
 An existing Penqwin ERP or SARK ERP installation is upgraded in place and keeps its data. Details, requirements and how to verify the download are in [docs/INSTALL.md](docs/INSTALL.md).

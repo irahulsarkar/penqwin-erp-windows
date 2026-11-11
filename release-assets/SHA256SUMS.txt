@@ -1,7 +1,15 @@
+aa31ed75b57e0d1dc00cef5384e59d2cd91feb7ccdcc6d78d30a2691227035e6 Penqwin-ERP-Windows-6.0.9.exe
+7d7b33b43983d2a10b77b01376458d6cf3eff72e334a85d7b57d371aaf36c3d6 Penqwin-ERP-macOS-6.0.9.dmg
+ee26da3a1f1e4e38684b18a7f436d6fb2d11b3dc74b59091493cf6f36f9215c5 Penqwin-ERP-6.0.9-linux-amd64-gtk4.deb
+babf05e345ab626be929b7779ff93c571ac723542890ccf11fe4471c8b28374b Penqwin-ERP-6.0.9-linux-amd64-gtk4.tar.gz
+aea3794b929063e3f6a02251ec1a85b10b4cbecf0beffc3478165d53d74552b8 Penqwin-ERP-6.0.9-linux-amd64-gtk3.deb
+1a805f2cb0906ea383abe935c18a597a552951a555b138c5228ebf3408207d71 Penqwin-ERP-6.0.9-linux-amd64-gtk3.tar.gz
+934bd3632d974bb629577015d122d0a7794f329426e74aa55997bce7c6d035aa Penqwin-ERP-6.0.9-linux-arm64-gtk4.deb
+96190fd6b1db1fd8236cddaf7cc8c1d7c77859f367e436c64185f285284cba1c Penqwin-ERP-6.0.9-linux-arm64-gtk4.tar.gz
+f629cc4671407c5ce84fa4bda79e98fb618e4127adf00ed4f9739c1beb53d3b6 Penqwin-ERP-6.0.9-linux-arm64-gtk3.deb
+fe54bb778dbc5c872a759c3050d3962bab199098a12627b68679ff028cbb74a7 Penqwin-ERP-6.0.9-linux-arm64-gtk3.tar.gz
 b6b1014c77889e8c55d34a4c9db9d1dd85868dc2802fd8bdd0dec8a4ef9b0762 Penqwin-ERP-Windows-6.0.8.exe
-7863ad28832c262768139038f0921146ddbd1b9b26bd1ab68ff7964685637dc3 Penqwin-ERP-Demo-Windows-6.0.8.exe
 bf42a23913990d63bacf8672f9aa3e0d25638cc98cede5df8c87fc0b12f75ce5  Penqwin-ERP-Windows-6.0.5.exe
 8cf5b06ee52c83519fffef2b6c7dbbf978db39069544256918baa1604874ca9b Penqwin-ERP-Windows-6.0.3.exe
-d539bd8cbfa9d7bfb18774c3f38c95f38bacb3dcbfacecdce3a37027e5c7c7cb Penqwin-ERP-Demo-Windows-6.0.3.exe
 9bc496464cf7e50f8ae1b218c914fd3b2cdbbda81e423a5732c7508e8b2bd93e Penqwin-ERP-Linux-6.0.3.deb
 f99e59429f6193ff2ca17cebe06b4db78d0ee0ac75670d882531cbc01d859aa3 Penqwin-ERP-Linux-6.0.3.tar.gz

@@ -2,6 +2,11 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.0.9
+
+### Fixed
+- The dashboard's "Sales, last 30 days" chart could draw its curve, its markers and its "today" dot at the wrong position on the program's first open each day, only correcting itself on a refresh. It now waits for a real measurement of its own plotting area before drawing anything data-dependent in it.
+
 ## 6.0.8
 
 This includes everything listed under 6.0.6 and 6.0.7 below (neither was released on its own).
