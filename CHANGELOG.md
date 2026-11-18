@@ -2,6 +2,18 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.0.10
+
+### Added
+- Silent, all-users install for managed and Microsoft Store installs: `/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /ALLUSERS`.
+- New invoice designs, dispatch and LR details, a declaration and jurisdiction line, and image, Excel and CSV export of a bill.
+- A print preview for every report, with column choice, paper and orientation, and PDF, Excel and CSV output.
+- Purchase orders and a stronger invoice import.
+
+### Changed
+- WhatsApp Business shows "Coming soon" until Meta's approval is complete; the WhatsApp buttons open WhatsApp with the message written.
+- The Windows program is built on the Wails 3 window shell for this release.
+
 ## 6.0.9
 
 ### Fixed

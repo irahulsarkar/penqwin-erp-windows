@@ -1,3 +1,4 @@
+478c2ef0b96b7848d179bc007cd9a77c2fc79224581256b9be47f1532b257ae5  Penqwin-ERP-Windows-6.0.10.exe
 aa31ed75b57e0d1dc00cef5384e59d2cd91feb7ccdcc6d78d30a2691227035e6 Penqwin-ERP-Windows-6.0.9.exe
 7d7b33b43983d2a10b77b01376458d6cf3eff72e334a85d7b57d371aaf36c3d6 Penqwin-ERP-macOS-6.0.9.dmg
 ee26da3a1f1e4e38684b18a7f436d6fb2d11b3dc74b59091493cf6f36f9215c5 Penqwin-ERP-6.0.9-linux-amd64-gtk4.deb

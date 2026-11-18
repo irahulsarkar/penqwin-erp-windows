@@ -18,7 +18,7 @@ The full list is in [docs/FEATURES.md](docs/FEATURES.md).
 
 ## Install
 
-1. From the [latest release](../../releases/latest), grab the file for your computer: `Penqwin-ERP-Windows-6.0.9.exe` on Windows 10/11, `Penqwin-ERP-macOS-6.0.9.dmg` on macOS (Apple Silicon and Intel, one file for both), or on Linux whichever `.deb`/`.tar.gz` matches your distribution — see the release notes for which one that is.
+1. From the [latest release](../../releases/latest), grab the file for your computer: `Penqwin-ERP-Windows-6.0.10.exe` on Windows 10/11, `Penqwin-ERP-macOS-6.0.9.dmg` on macOS (Apple Silicon and Intel, one file for both), or on Linux whichever `.deb`/`.tar.gz` matches your distribution — see the release notes for which one that is.
 2. Run it and follow the steps. No administrator rights are needed on Windows.
 3. Open the app and activate it with your licence.
 

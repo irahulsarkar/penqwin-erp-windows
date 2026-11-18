@@ -1,37 +1,26 @@
-## Penqwin ERP 6.0.9
+## Penqwin ERP 6.0.10
 
-Pharmacy management software for India. Pick whichever file matches your computer below; an existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
-
-<p align="center">
-  <img src="docs/images/gateway.png" width="100%" alt="The Penqwin ERP gateway: every module reachable by a letter or two, today's sales and what needs attention on the right.">
-</p>
+Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
 
 ### Windows
 
 Works on Windows 10 and 11, 64-bit. No administrator rights needed; just run the installer.
 
-- `Penqwin-ERP-Windows-6.0.9.exe` — 28.0 MB
+- `Penqwin-ERP-Windows-6.0.10.exe` (29.4 MB)
+- SHA-256: `478c2ef0b96b7848d179bc007cd9a77c2fc79224581256b9be47f1532b257ae5`
 
-32-bit Windows isn't built yet.
+This release is for Windows only. The macOS and Linux files stay at [6.0.9](../../releases/tag/v6.0.9). The Windows program in this release is built on the newer Wails 3 window shell: if printing to a receipt or label printer misbehaves, please tell hello@penqw.in.
 
-### macOS
+### New in 6.0.10
 
-One universal installer for both Apple Silicon (M-series) and Intel Macs, macOS 12 Monterey or newer.
+- Penqwin ERP can now be installed silently for all users: `Penqwin-ERP-Windows-6.0.10.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /ALLUSERS` (Program Files, listed in Windows' Installed apps for every account). Without `/ALLUSERS` it installs for the current user only, as before.
+- The WhatsApp Business connection is shown as "Coming soon" until Meta's approval is complete. The WhatsApp buttons keep working as before: they open WhatsApp with the message written for you to send.
+- New invoice designs, dispatch and LR details, a declaration and jurisdiction line, and image, Excel and CSV export of a bill.
+- A print preview for every report: choose columns, paper and orientation, then print or save as PDF, Excel or CSV.
+- Purchase orders, a stronger invoice import, and fewer buttons on busy screens.
+- The dashboard sales chart has a legend and a 3-day average line.
 
-- `Penqwin-ERP-macOS-6.0.9.dmg` — 62.7 MB
-
-The app isn't notarized yet, so the first time you open it, right-click the app and choose Open instead of double-clicking, or Gatekeeper will refuse to launch it.
-
-### Linux
-
-Built in four flavours depending on how modern your distribution is. If you're not sure which one you need, the GTK4/amd64 `.deb` is the right pick for anything from the last couple of years (Ubuntu 24.04+, Debian 13, Fedora 40+); the `.tar.gz` next to it is the same build for distributions that don't use `.deb` packages.
-
-- **Newer distros (GTK4), Intel/AMD 64-bit:** `Penqwin-ERP-6.0.9-linux-amd64-gtk4.deb` (26.8 MB) or `.tar.gz` (29.2 MB)
-- **Newer distros (GTK4), ARM64 (Raspberry Pi 4/5 class and ARM servers):** `Penqwin-ERP-6.0.9-linux-arm64-gtk4.deb` (25.9 MB) or `.tar.gz` (28.2 MB)
-- **Older distros (GTK3 — Ubuntu 22.04, Debian 12), Intel/AMD 64-bit:** `Penqwin-ERP-6.0.9-linux-amd64-gtk3.deb` (26.8 MB) or `.tar.gz` (29.2 MB)
-- **Older distros (GTK3), ARM64:** `Penqwin-ERP-6.0.9-linux-arm64-gtk3.deb` (25.9 MB) or `.tar.gz` (28.2 MB)
-
-Every file's checksum is in `release-assets/SHA256SUMS.txt` if you want to verify your download.
+Every file's checksum is in `release-assets/SHA256SUMS.txt`.
 
 ### New in 6.0.9
 
