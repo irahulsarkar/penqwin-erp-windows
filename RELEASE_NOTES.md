@@ -1,3 +1,24 @@
+## Penqwin ERP 6.3.1
+
+Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
+
+### Windows
+
+Works on Windows 10 and 11, 64-bit. No administrator rights needed; just run the installer.
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `Penqwin-ERP-Windows-6.3.1.exe` (the full installer) | 28.3 MB | `01ca493f40e3808d9da966b5bdbfc927d1f7464f2bff5046f0e03be9a960aedb` |
+| `PenqwinERPSetup.exe` (a small downloader that fetches the newest version from this page) | 0.1 MB | `133072f5c3e8078678bdbbe0a73beaebb0c6bfedc4c083d004f4fcd640b3edb7` |
+
+Neither installer is code-signed yet, so Windows SmartScreen may ask you to confirm before it runs. This release is for Windows only.
+
+### New in 6.3.1
+
+- **Activate online now works.** The activation screen connects to the Penqwin licence server (console.penqw.in): enter the activation key, the e-mail the licence was bought with and the drug licence number. Offline activation is still available.
+
+Everything in [6.3.0](../../releases/tag/v6.3.0) is included. Every file's checksum is in `release-assets/SHA256SUMS.txt`.
+
 ## Penqwin ERP 6.3.0
 
 Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.

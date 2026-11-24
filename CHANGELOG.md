@@ -2,6 +2,11 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.3.1
+
+### Changed
+- "Activate online" now connects to the Penqwin licence server at console.penqw.in. Type the activation key, the e-mail the licence was bought with and the drug licence number; the licence is bound to the computer and saved. The offline method stays as a fallback.
+
 ## 6.3.0
 
 This includes everything since 6.0.10; the version numbers in between were not released.
