@@ -2,6 +2,21 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.3.0
+
+This includes everything since 6.0.10; the version numbers in between were not released.
+
+### Added
+- Editing a posted sales invoice or purchase bill: the corrected bill replaces the old one under the same number, the old version stays in history, and a reason is required. Refused when the bill has an e-invoice IRN, is in a closed year or filed GST period, or has returns; a purchase is also refused when its stock has been sold or moved, or it has payments.
+- `PenqwinERPSetup.exe`, a small installer that fetches the newest version from the GitHub releases, installs without administrator rights, and asks before every update.
+- A new first-run welcome screen.
+
+### Changed
+- New installs open in the top-bar layout and start with the penguin assistant off; an existing choice is kept.
+- Menus, pickers and pop-ups stay inside the window.
+- Ctrl+Enter in a search that finds nothing opens the form to add a customer, doctor, supplier or product.
+- A refreshed app icon and a yellow glass style for notifications.
+
 ## 6.0.10
 
 ### Added

@@ -1,5 +1,7 @@
 # the installer is attached to the release, not committed
 release-assets/*.exe
+release-assets/*.zip
+release-assets/latest-windows.json
 release-assets/*.deb
 release-assets/*.tar.gz
 release-assets/*.dmg

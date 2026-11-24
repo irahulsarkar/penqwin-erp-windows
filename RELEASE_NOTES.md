@@ -1,3 +1,33 @@
+## Penqwin ERP 6.3.0
+
+Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
+
+### Windows
+
+Works on Windows 10 and 11, 64-bit. No administrator rights needed; just run the installer.
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `Penqwin-ERP-Windows-6.3.0.exe` (the full installer) | 28.3 MB | `f62d2edc84da47b7252df78d96a7a28ba2450cf61d6cb8b0ebe7157073ed7f56` |
+| `PenqwinERPSetup.exe` (a small downloader that fetches the newest version from this page) | 0.1 MB | `133072f5c3e8078678bdbbe0a73beaebb0c6bfedc4c083d004f4fcd640b3edb7` |
+
+Either one installs the same program. The full installer needs no internet while it runs. The downloader is tiny, installs without administrator rights, asks before every update, and opens the program in 5 seconds without updating if you do not answer. If Penqwin ERP was installed with the full installer, the downloader removes that older install after the new files are in place; your pharmacy data and licence are not touched.
+
+`Penqwin-ERP-6.3.0-windows-x64.zip` and `latest-windows.json` are what the downloader reads. You do not need them. This release is for Windows only. The macOS and Linux files stay at [6.0.9](../../releases/tag/v6.0.9). Neither installer is code-signed yet, so Windows SmartScreen may ask you to confirm before it runs.
+
+### New in 6.3.0
+
+This release includes everything since 6.0.10. The version numbers in between were not released.
+
+- **Edit a bill after it is posted.** Open a completed sales invoice or a posted purchase bill and choose Edit bill. The corrected bill replaces the old one under the same number, in one step; the old version stays in history and every edit needs a reason. A bill cannot be edited once it has an e-invoice IRN, falls in a closed year or a filed GST period, or has returns against it. A purchase also cannot be edited once its stock has been sold or moved, or if it has payments.
+- A new first-run welcome screen, and the installer described above.
+- New installs open in the top-bar layout, and the penguin assistant is off until you turn it on in Settings. Voice entry is a separate setting and is not affected. A computer that already chose a layout or turned the assistant on keeps its choice.
+- Menus, pickers and pop-ups now stay inside the window instead of being cut off at the edge.
+- Pressing Ctrl+Enter in a customer, doctor, supplier or product search that finds nothing opens the form to add a new one.
+- A refreshed app icon, and a yellow glass style for notifications.
+
+Every file's checksum is in `release-assets/SHA256SUMS.txt`.
+
 ## Penqwin ERP 6.0.10
 
 Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
