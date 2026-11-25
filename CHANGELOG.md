@@ -2,6 +2,11 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.3.3
+
+### Fixed
+- 6.3.2 was built without the illustrations, so the shutter-opening welcome animation, the page illustrations and the setup picture were missing. They are back.
+
 ## 6.3.2
 
 ### Added

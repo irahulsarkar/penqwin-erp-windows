@@ -14,20 +14,20 @@ Linux and macOS are not available in this release.
 
 ## Install on Windows
 
-1. Download `Penqwin-ERP-Windows-6.3.2.exe` from the [latest release](../../../releases/latest).
+1. Download `Penqwin-ERP-Windows-6.3.3.exe` from the [latest release](../../../releases/latest).
 2. Run it and follow the steps. The app is installed for the signed-in Windows user.
 3. Open Penqwin ERP. On the first start, activate it with your licence and complete the first-run setup.
 
 ## Linux
 
-The Linux package is not part of release 6.3.2. It will come in a later release.
+The Linux package is not part of release 6.3.3. It will come in a later release.
 
 ## Verify the download
 
 Each release lists the SHA-256 of every file. To check your copy:
 
 ```
-certutil -hashfile Penqwin-ERP-Windows-6.3.2.exe SHA256     (Windows, in a command prompt)
+certutil -hashfile Penqwin-ERP-Windows-6.3.3.exe SHA256     (Windows, in a command prompt)
 ```
 
 The result must match the release notes exactly. If it does not, download the file again.
@@ -67,4 +67,4 @@ Your data folder is left in place, so a later reinstall finds it. Delete it only
 
 ## For IT administrators
 
-The Windows installer is an Inno Setup program and accepts its standard switches, for example `Penqwin-ERP-Windows-6.3.2.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART`.
+The Windows installer is an Inno Setup program and accepts its standard switches, for example `Penqwin-ERP-Windows-6.3.3.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART`.
