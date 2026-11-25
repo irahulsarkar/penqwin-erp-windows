@@ -2,6 +2,14 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.3.2
+
+### Added
+- Three new black-and-white invoice designs: Clean Business, Clean Executive and Clean Studio. No filled areas and no lines between items; choose them in the print window or in Settings, Print Templates.
+
+### Changed
+- The demo copy now opens on a realistic pharmacy (Shree Sai Medicals & General Stores) with six months of busy sales, purchases and stock.
+
 ## 6.3.1
 
 ### Changed
