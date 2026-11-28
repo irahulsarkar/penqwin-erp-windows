@@ -2,6 +2,38 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.5.0
+
+### Added
+
+- **WhatsApp inside Penqwin.** WhatsApp Web slides up from the foot of the window. After settling a bill for a customer with a mobile number, send it as a PDF or PNG: the file waits in a small tray and can be dragged into the chat, or put there automatically if you choose that. Refill reminders, dues, wishes, order updates and other messages open in the same place. You always press Send yourself. WhatsApp does not permit other software to control WhatsApp Web, so automatic attaching is off until you turn it on.
+- **Barcode on the PDF invoice.** The invoice number is printed as a barcode at the top right.
+- **Supplier payment due dates.** Enter a due date on a goods receipt and be reminded before it; the reminder days are set in Settings.
+- **Widgets button** in the navigation, for the calculator, notepad and other tools.
+- **New lock screen and welcome screen**, a cleaner window frame, and new update and installer screens.
+- Reports show dates as dd/mm/yyyy, and expiry dates as mm/yyyy.
+
+### Changed
+
+- The top bar layout and the switch to it are removed.
+- AI Medicine Search is removed. The Medicine Directory stays.
+
+### Fixed
+
+- A bill settled for a customer now shows the customer in the "Invoice saved" window.
+
+## 6.4.0
+
+### Added
+- An Update button beside the search box when a newer version is out.
+- A redesigned dashboard and billing screen.
+- New report designs: Register, Statement, Ledger, Compact and Classic.
+- A button on goods receipts to open bills that are awaiting entry.
+
+### Fixed
+- Typing in a goods receipt no longer loses the cursor when it saves itself.
+- The pharmacist's name prints on the barcode bill, a customer added with Ctrl+Enter shows on the bill, and the medication sheet opens in front of the print preview.
+
 ## 6.3.3
 
 ### Fixed

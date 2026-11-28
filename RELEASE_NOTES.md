@@ -1,3 +1,38 @@
+## Penqwin ERP 6.5.0
+
+Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
+
+### Windows
+
+Works on Windows 10 and 11, 64-bit. No administrator rights needed; just run the installer.
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `Penqwin-ERP-Windows-6.5.0.exe` (the full installer) | 29.3 MB | `943945dd854945bef62b66d6d89984c0e3fd39e1fc7e2cea5a7ebf9c0eae5407` |
+| `PenqwinERPSetup.exe` (a small downloader that fetches the newest version from this page) | 1.0 MB | `e76233fc3c0a48e611349c8154cc3eb86595e9c30a3ae9e6fdd6d3f9d5a50fd6` |
+
+`Penqwin-ERP-6.5.0-windows-x64.zip` and `latest-windows.json` are what the downloader reads. You do not need them. Neither installer is code-signed yet, so Windows SmartScreen may ask you to confirm before it runs. This release is for Windows only.
+
+### New in 6.5.0
+
+- **WhatsApp inside Penqwin.** WhatsApp Web slides up from the foot of the window. After settling a bill for a customer with a mobile number, send it as a PDF or PNG: the file waits in a small tray and can be dragged into the chat, or put there automatically if you choose that. Refill reminders, dues, wishes, order updates and other messages open in the same place. You always press Send yourself. WhatsApp does not permit other software to control WhatsApp Web, so automatic attaching is off until you turn it on.
+- **Barcode on the PDF invoice.** The invoice number is printed as a barcode at the top right.
+- **Supplier payment due dates.** Enter a due date on a goods receipt and be reminded before it; the reminder days are set in Settings.
+- **Widgets button** in the navigation, for the calculator, notepad and other tools.
+- **New lock screen and welcome screen**, a cleaner window frame, and new update and installer screens.
+- Reports show dates as dd/mm/yyyy, and expiry dates as mm/yyyy.
+
+### Changed
+
+- The top bar layout and the switch to it are removed.
+- AI Medicine Search is removed. The Medicine Directory stays.
+
+### Fixed
+
+- A bill settled for a customer now shows the customer in the "Invoice saved" window.
+
+Every file's checksum is in `release-assets/SHA256SUMS.txt`.
+
 ## Penqwin ERP 6.3.3
 
 Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
