@@ -2,6 +2,14 @@
 
 All notable changes to Penqwin ERP for Windows are listed here, newest first.
 
+## 6.5.1
+
+### Changed
+- When Penqwin opens and a newer version is out, the update installs by itself after a 5-second countdown, then opens the new version. Not now still skips it.
+
+### Fixed
+- The update window on an existing install never changed: it stayed the one first installed. Penqwin now replaces it with the newest one shortly after it starts.
+
 ## 6.5.0
 
 ### Added

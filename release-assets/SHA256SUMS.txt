@@ -1,3 +1,6 @@
+5dd678f00ad902c494c91e1a3860df50b2fca4c62aa4918e5dbf957f52e7e486  Penqwin-ERP-Windows-6.5.1.exe
+873412b46170254ebf2379096617598d816697dd5d0a102618bf170b61a08e4c  PenqwinERPSetup.exe
+587f19d163a87c5f201c834fddcbc4be41bd2295a6bd91734bec155159cd3b5e  Penqwin-ERP-6.5.1-windows-x64.zip
 943945dd854945bef62b66d6d89984c0e3fd39e1fc7e2cea5a7ebf9c0eae5407  Penqwin-ERP-Windows-6.5.0.exe
 e76233fc3c0a48e611349c8154cc3eb86595e9c30a3ae9e6fdd6d3f9d5a50fd6  PenqwinERPSetup.exe
 82be64dbc6334bc703c221a8ce718b4d4604aadca16a219410e75daaba362768  Penqwin-ERP-6.5.0-windows-x64.zip

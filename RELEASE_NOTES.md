@@ -1,3 +1,41 @@
+## Penqwin ERP 6.5.1
+
+Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
+
+### Windows
+
+Works on Windows 10 and 11, 64-bit. No administrator rights needed; just run the installer.
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `Penqwin-ERP-Windows-6.5.1.exe` (the full installer) | 29.3 MB | `5dd678f00ad902c494c91e1a3860df50b2fca4c62aa4918e5dbf957f52e7e486` |
+| `PenqwinERPSetup.exe` (a small downloader that fetches the newest version from this page) | 1.0 MB | `873412b46170254ebf2379096617598d816697dd5d0a102618bf170b61a08e4c` |
+
+`Penqwin-ERP-6.5.1-windows-x64.zip` and `latest-windows.json` are what the downloader reads. You do not need them. Neither installer is code-signed yet, so Windows SmartScreen may ask you to confirm before it runs. This release is for Windows only.
+
+### New in 6.5.1
+
+- **Updates install by themselves.** When Penqwin opens and a newer version is out, the update window shows what is new and installs it after a 5-second countdown, then opens the new version. **Not now** still skips it.
+- **The update window itself now updates.** Earlier installs kept the update window they were first installed with. From this version, Penqwin replaces it with the newest one shortly after it starts.
+
+### Also in 6.5 (from 6.5.0)
+
+- **WhatsApp inside Penqwin.** WhatsApp Web slides up from the foot of the window. After settling a bill for a customer with a mobile number, send it as a PDF or PNG: the file waits in a small tray and can be dragged into the chat, or put there automatically if you choose that. Refill reminders, dues, wishes, order updates and other messages open in the same place. You always press Send yourself. WhatsApp does not permit other software to control WhatsApp Web, so automatic attaching is off until you turn it on.
+- **Barcode on the PDF invoice.** The invoice number is printed as a barcode at the top right.
+- **Supplier payment due dates.** Enter a due date on a goods receipt and be reminded before it; the reminder days are set in Settings.
+- **Widgets button** in the navigation, for the calculator, notepad and other tools.
+- **New lock screen and welcome screen**, a cleaner window frame, and new update and installer screens.
+- Reports show dates as dd/mm/yyyy, and expiry dates as mm/yyyy.
+
+### Changed
+
+- The top bar layout and the switch to it are removed.
+- AI Medicine Search is removed. The Medicine Directory stays.
+
+### Fixed
+
+- A bill settled for a customer now shows the customer in the "Invoice saved" window.
+
 ## Penqwin ERP 6.5.0
 
 Pharmacy management software for India. An existing Penqwin ERP or SARK ERP install is upgraded in place and keeps its data.
